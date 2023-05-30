@@ -1,0 +1,32 @@
+{
+  "name": "cordierite-ui",
+  "version": "0.0.0",
+  "description": "Web component library for Vue3.",
+  "main": "lib/index.js",
+  "module": "es/index.mjs",
+  "files": [
+    "es",
+    "lib"
+  ],
+  "keywords": [
+    "cordierite",
+    "web component library"
+  ],
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "author": "soppy_lzz",
+  "license": "MIT",
+  "typings": "lib/index.d.ts",
+  "scripts": {
+    "release": "release-it"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cordieritejs/ui"
+  }
+}
